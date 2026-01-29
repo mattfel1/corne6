@@ -10,14 +10,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/mouse.h>
 
-&lt {
-    flavor = "balanced";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <165>;
-    require-prior-idle-ms = <127>;
-};
-
-
 / {
     macros {
         to_mac_qwerty: to_mac_qwerty {
