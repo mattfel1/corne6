@@ -8,17 +8,168 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <165>;
+    require-prior-idle-ms = <127>;
+};
+
+
+/ {
+    macros {
+        to_mac_qwerty: to_mac_qwerty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 1 &bt BT_SEL 0>;
+            label = "TO_MAC_QWERTY";
+        };
+
+        to_win_qwerty: to_win_qwerty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 4 &bt BT_SEL 1>;
+            label = "TO_WIN_QWERTY";
+        };
+
+        to_mac_colemak: to_mac_colemak {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &bt BT_SEL 0>;
+            label = "TO_MAC_COLEMAC";
+        };
+
+        to_win_colemak: to_win_colemak {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 3 &bt BT_SEL 1>;
+            label = "TO_WIN_COLEMAK";
+        };
+
+        caps_long_press: caps_long_press {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            tap-ms = <150>;
+            bindings = <&kp CAPS>;
+            label = "CAPS_LONG_PRESS";
+        };
+
+        cerr_keystroke: cerr_keystroke {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp S &kp T &kp D &kp COLON &kp COLON &kp C &kp E &kp R &kp R &kp SPACE &kp LT &kp LT &kp SPACE &kp SPACE &kp LT &kp LT &kp SPACE &kp S &kp T &kp D &kp LS(COLON) &kp LS(COLON) &kp E &kp N &kp D &kp L &kp SEMI &kp LC(LEFT) &kp LC(LEFT) &kp LC(LEFT) &kp LC(LEFT) &kp LEFT>;
+
+            label = "CERR";
+        };
+
+        debug_keystroke: debug_keystroke {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp LS(R) &kp LS(A) &kp LS(I) &kp LS(L) &kp UNDER &kp LS(D) &kp LS(E) &kp LS(B) &kp LS(U) &kp LS(G) &kp LPAR &kp RPAR &kp SEMI &kp LEFT &kp LEFT>;
+
+            label = "DEBUG";
+        };
+
+        iostream_keystroke: iostream_keystroke {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp POUND &kp I &kp N &kp C &kp L &kp U &kp D &kp E &kp SPACE &kp LT &kp I &kp O &kp S &kp T &kp R &kp E &kp A &kp M &kp GT &kp RET>;
+
+            label = "IOSTREAM";
+        };
+
+        test_cmd: test_cmd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp T &kp E &kp S &kp T &kp SPACE &kp T &kp H &kp I &kp S &kp SPACE &kp P &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp T &kp E &kp S &kp T &kp SPACE &kp T &kp H &kp I &kp S &kp SPACE &kp R &kp D &kp U>;
+
+            label = "TEST_CMD";
+        };
+
+        stay_awake: stay_awake {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&kp C &kp A &kp F &kp F &kp E &kp I &kp N &kp A &kp T &kp E &kp SPACE &kp MINUS &kp D>;
+
+            label = "STAY_AWAKE";
+        };
+
+        llvm_errs: llvm_errs {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp L &kp L &kp V &kp M &kp COLON &kp COLON &kp E &kp R &kp R &kp S &kp LPAR &kp RPAR &kp SPACE &kp LT &kp LT &kp SPACE &kp SPACE &kp LT &kp LT &kp SPACE &kp DQT &kp BSLH &kp N &kp DQT &kp SEMI &kp LC(LEFT) &kp LC(LEFT) &kp LC(LEFT) &kp LC(LEFT) &kp LEFT>;
+
+            label = "LLVM_ERRS";
+        };
+
+        sn_cl_very_verbose: sn_cl_very_verbose {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp S &kp N &kp COLON &kp COLON &kp C &kp L &kp UNDER &kp V &kp E &kp R &kp Y &kp UNDER &kp V &kp E &kp R &kp B &kp O &kp S &kp E &kp SPACE &kp EQUAL &kp SPACE &kp T &kp R &kp U &kp E &kp SEMI>;
+
+            label = "SN_CL_VERY_VERBOSE";
+        };
+
+        tolanerhel: tolanerhel {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp T &kp O &kp L &kp A &kp N &kp E &kp R &kp H &kp E &kp L &kp SPACE>;
+
+            label = "TOLANERHEL";
+        };
+
+        dockerssh2: dockerssh2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 1>,
+                <&none &kp B &kp A &kp S &kp H &kp SPACE &kp TILDE &kp FSLH &kp S &kp C &kp R &kp I &kp P &kp T &kp S &kp FSLH &kp D &kp O &kp C &kp K &kp E &kp R &kp UNDER &kp S &kp S &kp H &kp N2 &kp DOT &kp S &kp H &kp RET>;
+
+            label = "DOCKERSSH2";
+        };
+
+        final_report: final_report {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 1>,
+                <&none &kp RG(R) &kp R &kp A &kp I &kp L &kp UNDER &kp G &kp E &kp N &kp RET &kp ENTER &kp RG(R) &kp R &kp E &kp P &kp O &kp R &kp T &kp S &kp RET &kp ENTER &kp RG(R) &kp LS(F) &kp I &kp N &kp A &kp L &kp DOT &kp R &kp E &kp P &kp O &kp R &kp T &kp RET &kp ENTER>;
+
+            label = "FINAL_REPORT";
+        };
+
+        summary_report: summary_report {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 1>,
+                <&none &kp RG(R) &kp R &kp A &kp I &kp L &kp UNDER &kp G &kp E &kp N &kp RET &kp ENTER &kp RG(R) &kp R &kp E &kp P &kp O &kp R &kp T &kp S &kp RET &kp ENTER &kp RG(R) &kp LS(S) &kp U &kp M &kp M &kp A &kp R &kp Y &kp DOT &kp R &kp E &kp P &kp O &kp R &kp T &kp RET &kp ENTER>;
+
+            label = "SUMMARY_REPORT";
+        };
+    };
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         m_clmk {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
             display-name = "m_clmk";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F      &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y    &kp SEMI  &kp BSLH
@@ -39,12 +190,6 @@
         };
 
         m_qwrty {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             display-name = "m_qwrty";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E      &kp R      &kp T      &kp Y     &kp U     &kp I      &kp O    &kp P     &kp BSLH
