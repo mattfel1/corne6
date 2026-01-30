@@ -10,6 +10,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&lt {
+    tapping-term-ms = <200>;
+    quick-tap-ms = <165>;
+    require-prior-idle-ms = <127>;
+    flavor = "balanced";
+};
+
 / {
     macros {
         to_mac_colemak: to_mac_colemak {
@@ -128,6 +135,30 @@
             bindings = <&kp LEFT_SHIFT>, <&caps_long_press>;
 
             tapping-term-ms = <200>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        combo_home {
+            bindings = <&kp HOME>;
+            key-positions = <39 40>;
+        };
+
+        combo_end {
+            bindings = <&kp END>;
+            key-positions = <40 41>;
+        };
+
+        combo_pgup {
+            bindings = <&kp PG_UP>;
+            key-positions = <6 18>;
+        };
+
+        combo_pgdn {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <30 18>;
         };
     };
 
