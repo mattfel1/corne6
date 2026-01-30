@@ -83,16 +83,6 @@
             tap-ms = <150>;
         };
 
-        cerr_keystroke: cerr_keystroke {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap_time 1>,
-                <&none &kp S &kp T &kp D &kp COLON &kp COLON &kp C &kp E &kp R &kp R &kp SPACE &kp LT &kp LT &kp SPACE &kp SPACE &kp LT &kp LT &kp SPACE &kp S &kp T &kp D &kp LS(COLON) &kp LS(COLON) &kp E &kp N &kp D &kp L &kp SEMI &kp LC(LEFT) &kp LC(LEFT) &kp LC(LEFT) &kp LC(LEFT) &kp LEFT>;
-
-            label = "CERR";
-        };
-
         debug_keystroke: debug_keystroke {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -101,16 +91,6 @@
                 <&none &kp LS(R) &kp LS(A) &kp LS(I) &kp LS(L) &kp UNDER &kp LS(D) &kp LS(E) &kp LS(B) &kp LS(U) &kp LS(G) &kp LPAR &kp RPAR &kp SEMI &kp LEFT &kp LEFT>;
 
             label = "DEBUG";
-        };
-
-        iostream_keystroke: iostream_keystroke {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap_time 1>,
-                <&none &kp POUND &kp I &kp N &kp C &kp L &kp U &kp D &kp E &kp SPACE &kp LT &kp I &kp O &kp S &kp T &kp R &kp E &kp A &kp M &kp GT &kp RET>;
-
-            label = "IOSTREAM";
         };
 
         test_cmd: test_cmd {
@@ -151,16 +131,6 @@
                 <&none &kp S &kp N &kp COLON &kp COLON &kp C &kp L &kp UNDER &kp V &kp E &kp R &kp Y &kp UNDER &kp V &kp E &kp R &kp B &kp O &kp S &kp E &kp SPACE &kp EQUAL &kp SPACE &kp T &kp R &kp U &kp E &kp SEMI>;
 
             label = "SN_CL_VERY_VERBOSE";
-        };
-
-        tolanerhel: tolanerhel {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap_time 1>,
-                <&none &kp T &kp O &kp L &kp A &kp N &kp E &kp R &kp H &kp E &kp L &kp SPACE>;
-
-            label = "TOLANERHEL";
         };
 
         dockerssh2: dockerssh2 {
@@ -278,10 +248,10 @@
         m_clmk {
             display-name = "m_clmk";
             bindings = <
-&kp TAB    &lt 6 Q   &kp W     &kp F      &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 15 SEMICOLON  &kp BSLH
-&kp GRAVE  &lt 7 A   &kp R     &kp S      &kp T      &kp D      &kp H     &kp N     &kp E      &kp I    &lt 8 O           &kp SQT
-&kp LSHFT  &lt 12 Z  &lt 13 X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 14 SLASH      &kp RSHFT
-                               &kp LCTRL  &kp SPACE  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
+&kp TAB       &lt 6 Q   &kp W     &kp F      &kp P                   &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 15 SEMICOLON  &kp BSLH
+&lt 17 GRAVE  &lt 7 A   &kp R     &kp S      &kp T                   &kp D      &kp H     &kp N     &kp E      &kp I    &lt 8 O           &lt 17 SQT
+&kp LSHFT     &lt 12 Z  &lt 13 X  &kp C      &kp V                   &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 14 SLASH      &kp RSHFT
+                                  &kp LCTRL  &mt SPACE LEFT_COMMAND  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
             >;
         };
 
@@ -391,19 +361,19 @@
 
         numpad_hi_func {
             bindings = <
-&trans  &kp F15  &kp F16  &kp F17  &kp F18  &kp F19    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans     &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                          &trans   &trans   &trans     &trans  &trans  &kp N0
+&trans  &trans  &trans  &kp F16  &kp F17  &kp F18    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &trans  &kp F19  &kp F20  &kp F21    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &kp F22  &kp F23  &kp F24    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                        &trans   &trans   &trans     &trans  &trans  &kp N0
             >;
         };
 
         low_func {
             bindings = <
-&trans  &kp F10  &kp F11  &kp F12  &kp F13  &kp F14    &trans  &kp F7  &kp F8  &kp F9  &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans     &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
-&trans  &trans   &trans   &trans   &trans   &trans     &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
-                          &trans   &trans   &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp F10  &kp F11    &trans  &kp F7  &kp F8  &kp F9  &trans  &trans
+&trans  &trans  &trans  &trans  &kp F12  &kp F13    &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
+&trans  &trans  &trans  &trans  &kp F14  &kp F15    &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
+                        &trans  &trans   &trans     &trans  &trans  &trans
             >;
         };
 
@@ -427,10 +397,19 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans            &final_report    &trans               &trans         &trans  &llvm_errs  &trans  &trans  &trans  &trans
+&trans  &trans  &debug_keystroke  &summary_report  &test_cmd            &dockerssh2    &trans  &trans      &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &stay_awake      &sn_cl_very_verbose  &trans         &trans  &trans      &trans  &trans  &trans  &trans
+                                  &trans           &trans               &trans         &trans  &trans      &trans
+            >;
+        };
+
+        special_chars {
+            bindings = <
+&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
+&trans  &trans        &trans      &trans         &trans        &kp LBKT         &kp RBKT       &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &trans        &trans        &trans
+                                  &trans         &trans        &trans           &trans         &trans        &kp EQUAL
             >;
         };
     };
