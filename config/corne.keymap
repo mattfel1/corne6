@@ -11,11 +11,18 @@
 
 / {
     macros {
-        new_macro: new_macro {
+        to_mac_qwerty: to_mac_qwerty {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
-            label = "NEW_MACRO";
+            bindings = <&to 2 &bt BT_SEL 0>;
+            label = "TO_MAC_QWERTY";
+        };
+
+        to_win_qwerty: to_win_qwerty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 4 &bt BT_SEL 1>;
+            label = "TO_WIN_QWERTY";
         };
     };
 
