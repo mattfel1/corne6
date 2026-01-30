@@ -40,7 +40,7 @@
             label = "TO_WIN_COLEMAK";
         };
 
-        to_win_colemak: to_win_dvorak {
+        to_win_dvorak: to_win_dvorak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 3 &bt BT_SEL 1>;
