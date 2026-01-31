@@ -278,10 +278,10 @@
         m_dvrk {
             display-name = "m_dvrk";
             bindings = <
-&kp TAB    &lt 6 SQT    &kp COMMA  &kp DOT    &kp P                   &kp Y      &kp F     &kp G     &kp C      &kp R  &lt 15 L     &kp FSLH
-&lt 17 A   &lt 7 O      &kp E      &kp U      &kp I                   &kp D      &kp H     &kp T     &kp N      &kp S  &lt 8 MINUS  &lt 17 GRAVE
-&kp LSHFT  &lt 12 SEMI  &lt 13 Q   &kp J      &kp K                   &kp X      &kp B     &kp M     &kp W      &kp V  &lt 14 Z     &kp RSHFT
-                                   &kp LCTRL  &mt SPACE LEFT_COMMAND  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
+&kp TAB       &lt 6 SQT    &kp COMMA  &kp DOT    &kp P                   &kp Y      &kp F     &kp G     &kp C      &kp R  &lt 15 L     &kp FSLH
+&lt 17 GRAVE  &lt 7 A      &kp O      &kp E      &kp I                   &kp U      &kp H     &kp T     &kp N      &kp S  &lt 8 MINUS  &lt 17 GRAVE
+&kp LSHFT     &lt 12 SEMI  &lt 13 Q   &kp J      &kp K                   &kp X      &kp B     &kp M     &kp W      &kp V  &lt 14 Z     &kp RSHFT
+                                      &kp LCTRL  &mt SPACE LEFT_COMMAND  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
             >;
         };
 
