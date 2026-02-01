@@ -316,6 +316,7 @@
         };
 
         m_arrow {
+            display-name = "m_arrow";
             bindings = <
 &trans  &trans  &kp LCTRL  &kp LALT  &kp LGUI   &trans    &trans     &trans    &kp UP    &trans     &trans  &sl 16
 &trans  &trans  &trans     &trans    &trans     &trans    &kp PG_UP  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
@@ -325,6 +326,7 @@
         };
 
         m_nav {
+            display-name = "m_nav";
             bindings = <
 &trans  &trans  &trans     &trans    &trans     &trans    &trans     &trans   &trans  &trans  &trans  &trans
 &trans  &trans  &kp LCTRL  &kp LALT  &kp LGUI   &trans    &kp PG_UP  &trans   &trans  &trans  &trans  &trans
@@ -334,6 +336,7 @@
         };
 
         m_nav_rhs {
+            display-name = "m_nav_rhs";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RGUI   &kp RALT  &kp RCTRL  &trans  &trans
@@ -343,6 +346,7 @@
         };
 
         w_arrow {
+            display-name = "w_arrow";
             bindings = <
 &trans  &trans  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans    &trans     &trans    &kp UP    &trans     &trans  &trans
 &trans  &trans  &trans     &trans        &trans        &trans    &kp PG_UP  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
@@ -352,6 +356,7 @@
         };
 
         w_nav {
+            display-name = "w_nav";
             bindings = <
 &trans  &trans  &trans     &trans        &trans         &trans    &trans     &trans   &trans  &trans  &trans  &trans
 &trans  &trans  &kp LCTRL  &kp LEFT_WIN  &kp ALT_ERASE  &trans    &kp PG_UP  &trans   &trans  &trans  &trans  &trans
@@ -361,6 +366,7 @@
         };
 
         w_nav_rhs {
+            display-name = "w_nav_rhs";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ALT  &kp LEFT_WIN  &kp RCTRL  &trans  &trans
@@ -370,6 +376,7 @@
         };
 
         numpad_hi_func {
+            display-name = "num_hifunc";
             bindings = <
 &trans  &trans  &kp F16    &kp F17       &kp F18         &kp F19    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
 &trans  &trans  &kp F20    &kp F21       &kp F22         &kp F23    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
@@ -379,6 +386,7 @@
         };
 
         low_func {
+            display-name = "lofunc";
             bindings = <
 &trans  &trans  &trans  &trans  &kp F10  &kp F11    &trans  &kp F7  &kp F8  &kp F9  &trans  &trans
 &trans  &trans  &trans  &trans  &kp F12  &kp F13    &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
@@ -388,6 +396,7 @@
         };
 
         lyr_and_media {
+            display-name = "lyr_media";
             bindings = <
 &trans  &trans  &trans  &trans      &trans  &trans        &to_mac_multilayout  &to_win_multilayer  &to_phone  &to_tablet  &to_4   &trans
 &trans  &trans  &trans  &trans      &trans  &trans        &kp C_VOL_UP         &trans              &trans     &trans      &trans  &trans
@@ -397,6 +406,7 @@
         };
 
         mouse {
+            display-name = "mouse";
             bindings = <
 &trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP      &trans  &trans  &trans  &trans  &trans  &trans
@@ -406,6 +416,7 @@
         };
 
         macros {
+            display-name = "macro";
             bindings = <
 &trans  &trans  &trans            &final_report    &trans               &trans         &trans  &llvm_errs  &trans  &trans  &trans  &trans
 &trans  &trans  &debug_keystroke  &summary_report  &test_cmd            &dockerssh2    &trans  &trans      &trans  &trans  &trans  &trans
@@ -415,6 +426,7 @@
         };
 
         special_chars {
+            display-name = "special_char";
             bindings = <
 &trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
 &trans  &trans        &trans      &trans         &trans        &kp LBKT         &kp RBKT       &trans        &trans        &trans        &trans        &trans
