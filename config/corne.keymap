@@ -288,8 +288,8 @@
         w_clmk {
             display-name = "w_clmk";
             bindings = <
-&kp TAB       &lt 6 Q   &kp W     &kp F      &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 15 SEMI  &kp BSLH
-&lt 17 GRAVE  &lt 7 A   &kp R     &kp S      &kp T      &kp D      &kp H     &kp N     &kp E      &kp I    &lt 8 O      &lt 17 SQT
+&kp TAB       &lt 9 Q   &kp W     &kp F      &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 15 SEMI  &kp BSLH
+&lt 17 GRAVE  &lt 10 A  &kp R     &kp S      &kp T      &kp D      &kp H     &kp N     &kp E      &kp I    &lt 11 O     &lt 17 SQT
 &kp LSHFT     &lt 12 Z  &lt 13 X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 14 FSLH  &kp RSHFT
                                   &kp LCTRL  &kp SPACE  &kp RET    &kp LGUI  &kp BSPC  &kp MINUS
             >;
@@ -298,8 +298,8 @@
         w_qwrty {
             display-name = "w_qwrty";
             bindings = <
-&kp TAB       &lt 6 Q   &kp W     &kp E      &kp R      &kp T      &kp Y     &kp U     &kp I      &kp O    &lt 15 P     &kp BSLH
-&lt 17 GRAVE  &lt 7 A   &kp S     &kp D      &kp F      &kp G      &kp H     &kp J     &kp K      &kp L    &lt 8 SEMI   &lt 17 SQT
+&kp TAB       &lt 9 Q   &kp W     &kp E      &kp R      &kp T      &kp Y     &kp U     &kp I      &kp O    &lt 15 P     &kp BSLH
+&lt 17 GRAVE  &lt 10 A  &kp S     &kp D      &kp F      &kp G      &kp H     &kp J     &kp K      &kp L    &lt 11 SEMI  &lt 17 SQT
 &kp LSHFT     &lt 12 Z  &lt 13 X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 14 FSLH  &kp RSHFT
                                   &kp LCTRL  &kp SPACE  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
             >;
@@ -308,9 +308,9 @@
         w_dvrk {
             display-name = "w_dvrk";
             bindings = <
-&kp TAB    &lt 6 SQT   &kp COMMA  &kp DOT    &kp P      &kp Y      &kp F         &kp G     &kp C      &kp R  &lt 15 L     &kp FSLH
-&lt 17 A   &lt 7 O     &kp E      &kp U      &kp I      &kp D      &kp H         &kp T     &kp N      &kp S  &lt 8 MINUS  &lt 17 GRAVE
-&kp LSHFT  &lt 6 SEMI  &lt 13 Q   &kp J      &kp K      &kp X      &kp B         &kp M     &kp W      &kp V  &lt 14 Z     &kp RSHFT
+&kp TAB    &lt 9 SQT   &kp COMMA  &kp DOT    &kp P      &kp Y      &kp F         &kp G     &kp C      &kp R  &lt 15 L      &kp FSLH
+&lt 17 A   &lt 10 O    &kp E      &kp U      &kp I      &kp D      &kp H         &kp T     &kp N      &kp S  &lt 11 MINUS  &lt 17 GRAVE
+&kp LSHFT  &lt 6 SEMI  &lt 13 Q   &kp J      &kp K      &kp X      &kp B         &kp M     &kp W      &kp V  &lt 14 Z      &kp RSHFT
                                   &kp LCTRL  &kp SPACE  &kp RET    &kp LEFT_WIN  &kp BSPC  &kp MINUS
             >;
         };
