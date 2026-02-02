@@ -228,6 +228,11 @@
             bindings = <&kp DELETE>;
             key-positions = <10 11>;
         };
+
+        combo_mac {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <36 37>;
+        };
     };
 
     keymap {
