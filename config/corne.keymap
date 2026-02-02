@@ -301,10 +301,10 @@
         m_nav_rhs {
             display-name = "m_nav_rhs";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RGUI  &kp RALT  &kp RCTRL  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RGUI        &kp RALT  &kp RCTRL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans  &kp LEFT_SHIFT  &trans
             >;
         };
 
@@ -331,10 +331,10 @@
         w_nav_rhs {
             display-name = "w_nav_rhs";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ALT  &kp LEFT_WIN  &kp RCTRL  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ALT    &kp LEFT_WIN  &kp RCTRL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans     &trans  &trans
+                        &trans  &trans  &trans    &trans  &kp LEFT_SHIFT  &trans
             >;
         };
 
