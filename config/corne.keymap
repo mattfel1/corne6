@@ -236,10 +236,10 @@
         m_clmk {
             display-name = "m_clmk";
             bindings = <
-&kp TAB       &lt 4 Q   &kp W     &kp F      &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 13 SEMICOLON  &kp BSLH
-&lt 15 GRAVE  &lt 5 A   &kp R     &kp S      &kp T      &kp D      &kp H     &kp N     &kp E      &kp I    &lt 6 O           &lt 15 SQT
-&kp LSHFT     &lt 10 Z  &lt 11 X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 12 SLASH      &kp RSHFT
-                                  &kp LCTRL  &kp SPACE  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
+&kp TAB       &lt 4 Q   &kp W     &kp F      &kp P               &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 13 SEMICOLON  &kp BSLH
+&lt 15 GRAVE  &lt 5 A   &kp R     &kp S      &kp T               &kp D      &kp H     &kp N     &kp E      &kp I    &lt 6 O           &lt 15 SQT
+&kp LSHFT     &lt 10 Z  &lt 11 X  &kp C      &kp V               &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 12 SLASH      &kp RSHFT
+                                  &kp LCTRL  &mt LEFT_WIN SPACE  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
             >;
         };
 
@@ -256,10 +256,10 @@
         w_clmk {
             display-name = "w_clmk";
             bindings = <
-&kp TAB       &lt 7 Q   &kp W     &kp F      &kp P               &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 13 SEMI  &kp BSLH
-&lt 15 GRAVE  &lt 8 A   &kp R     &kp S      &kp T               &kp D      &kp H     &kp N     &kp E      &kp I    &lt 9 O      &lt 15 SQT
-&kp LSHFT     &lt 10 Z  &lt 11 X  &kp C      &kp V               &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 12 FSLH  &kp RSHFT
-                                  &kp LCTRL  &mt LEFT_WIN SPACE  &kp RET    &kp LGUI  &kp BSPC  &kp MINUS
+&kp TAB       &lt 7 Q   &kp W     &kp F      &kp P      &kp G      &kp J     &kp L     &kp U      &kp Y    &lt 13 SEMI  &kp BSLH
+&lt 15 GRAVE  &lt 8 A   &kp R     &kp S      &kp T      &kp D      &kp H     &kp N     &kp E      &kp I    &lt 9 O      &lt 15 SQT
+&kp LSHFT     &lt 10 Z  &lt 11 X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 12 FSLH  &kp RSHFT
+                                  &kp LCTRL  &kp SPACE  &kp RET    &kp LGUI  &kp BSPC  &kp MINUS
             >;
         };
 
