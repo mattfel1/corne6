@@ -281,8 +281,8 @@
         m_arrow {
             display-name = "m_arrow";
             bindings = <
-&trans  &trans  &kp LCTRL  &kp LALT  &kp LGUI   &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &trans     &trans    &trans     &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &sl 14
+&trans  &trans  &kp LCTRL  &kp LALT  &kp LGUI   &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &sl 14
+&trans  &trans  &trans     &trans    &trans     &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans     &trans    &trans     &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
                            &trans    &kp LSHFT  &trans    &kp END        &trans    &trans
             >;
