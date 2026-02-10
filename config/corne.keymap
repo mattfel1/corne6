@@ -391,10 +391,10 @@
         special_chars {
             display-name = "special_char";
             bindings = <
-&kp ESCAPE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp DELETE
-&trans      &trans        &trans      &trans         &trans        &kp LBKT         &kp RBKT       &trans        &trans        &trans        &trans        &trans
-&trans      &trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &trans        &trans        &trans
-                                      &trans         &trans        &trans           &trans         &trans        &kp EQUAL
+&kp ESCAPE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)    &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp DELETE
+&trans      &trans        &trans      &trans         &trans          &kp LBKT         &kp RBKT       &trans          &trans        &trans        &trans        &trans
+&trans      &trans        &trans      &trans         &trans          &trans           &trans         &trans          &trans        &trans        &trans        &trans
+                                      &trans         &kp LEFT_SHIFT  &trans           &trans         &kp LEFT_SHIFT  &kp EQUAL
             >;
         };
     };
