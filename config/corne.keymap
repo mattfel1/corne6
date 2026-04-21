@@ -134,7 +134,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_wait_time 1>,
-                <&none &kp RG(R) &kp R &kp A &kp I &kp L &kp UNDER &kp G &kp E &kp N &kp RET &kp ENTER &kp RG(R) &kp R &kp E &kp P &kp O &kp R &kp T &kp S &kp RET &kp ENTER &kp RG(R) &kp LS(F) &kp I &kp N &kp A &kp L &kp DOT &kp R &kp E &kp P &kp O &kp R &kp T &kp RET &kp ENTER>;
+                <&none &kp RG(R) &kp R &kp A &kp I &kp L &kp UNDER &kp G &kp E &kp N &kp RET &kp ENTER &kp RG(R) &kp R &kp E &kp P &kp O &kp R &kp T &kp S &kp RET &kp ENTER &kp RG(R) &kp LS(O) &kp U &kp T &kp P &kp U &kp T &kp UNDER &kp S &kp U &kp M &kp M &kp A &kp R &kp Y &kp RET &kp RET>;
 
             label = "FINAL_REPORT";
         };
@@ -144,7 +144,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_wait_time 1>,
-                <&none &kp RG(R) &kp R &kp A &kp I &kp L &kp UNDER &kp G &kp E &kp N &kp RET &kp ENTER &kp RG(R) &kp R &kp E &kp P &kp O &kp R &kp T &kp S &kp RET &kp ENTER &kp RG(R) &kp LS(S) &kp U &kp M &kp M &kp A &kp R &kp Y &kp DOT &kp R &kp E &kp P &kp O &kp R &kp T &kp RET &kp ENTER>;
+                <&none &kp RG(R) &kp R &kp A &kp I &kp L &kp UNDER &kp G &kp E &kp N &kp RET &kp ENTER &kp RG(R) &kp R &kp E &kp P &kp O &kp R &kp T &kp S &kp RET &kp ENTER &kp RG(R) &kp LS(S) &kp LS(I) &kp N &kp P &kp U &kp T &kp RET &kp RET>;
 
             label = "SUMMARY_REPORT";
         };
@@ -154,6 +154,16 @@
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 1 &to 4>;
             label = "TO_WIN_GAME";
+        };
+
+        pointer_regex: pointer_regex {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 1>,
+                <&none &kp N0 &kp X &kp LBKT &kp N0 &kp MINUS &kp N9 &kp A &kp MINUS &kp F &kp RBKT &kp PLUS>;
+
+            label = "POINTER_REGEX";
         };
     };
 
@@ -412,7 +422,7 @@
         macros {
             display-name = "macro";
             bindings = <
-&trans  &trans  &trans            &final_report    &trans               &trans         &trans  &llvm_errs  &trans  &trans  &trans  &trans
+&trans  &trans  &trans            &final_report    &pointer_regex       &trans         &trans  &llvm_errs  &trans  &trans  &trans  &trans
 &trans  &trans  &debug_keystroke  &summary_report  &test_cmd            &dockerssh2    &trans  &trans      &trans  &trans  &trans  &trans
 &trans  &trans  &trans            &stay_awake      &sn_cl_very_verbose  &trans         &trans  &trans      &trans  &trans  &trans  &trans
                                   &trans           &trans               &trans         &trans  &trans      &trans
