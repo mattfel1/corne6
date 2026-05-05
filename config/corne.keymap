@@ -273,9 +273,9 @@
             display-name = "m_qwrty";
             bindings = <
 &kp TAB       &lt 5 Q   &kp W        &kp E           &kp R           &kp T        &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
-&lt 17 GRAVE  &lt 6 A   &mt S LCTRL  &mt D LEFT_ALT  &mt F LEFT_WIN  &kp G        &kp H     &mt J LEFT_GUI  &mt K LEFT_ALT  &mt L LCTRL  &lt 7 SEMI   &lt 17 SQT
+&lt 17 GRAVE  &lt 6 A   &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F  &kp G        &kp H     &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LCTRL L  &lt 7 SEMI   &lt 17 SQT
 &kp LSHFT     &lt 11 Z  &lt 13 X     &kp C           &kp V           &kp B        &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &kp SPACE       &kp ENTER    &kp LALT  &kp BSPC        &kp MINUS
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE       &kp ENTER    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
@@ -283,9 +283,9 @@
             display-name = "w_clmk";
             bindings = <
 &kp TAB       &lt 8 Q   &kp W        &kp F           &kp P           &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 15 SEMI  &kp BSLH
-&lt 18 GRAVE  &lt 9 A   &mt R LCTRL  &mt S LEFT_WIN  &mt T LEFT_ALT  &kp D      &kp H     &mt N LEFT_ALT  &mt E LEFT_WIN  &mt I RCTRL  &lt 10 O     &lt 18 SQT
+&lt 18 GRAVE  &lt 9 A   &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T  &kp D      &kp H     &mt LEFT_ALT N  &mt LEFT_WIN E  &mt RCTRL I  &lt 10 O     &lt 18 SQT
 &kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V           &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &kp SPACE       &kp RET    &kp LGUI  &kp BSPC        &kp MINUS
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE       &kp RET    &kp LGUI  &kp BSPC        &kp MINUS
             >;
         };
 
@@ -293,9 +293,9 @@
             display-name = "w_qwrty";
             bindings = <
 &kp TAB       &lt 8 Q   &kp W        &kp E           &kp R           &kp T      &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
-&lt 18 GRAVE  &lt 9 A   &mt S LCTRL  &mt D LEFT_GUI  &mt F LEFT_ALT  &kp G      &kp H     &mt J LEFT_ALT  &mt K LEFT_GUI  &mt L LCTRL  &lt 10 SEMI  &lt 18 SQT
+&lt 18 GRAVE  &lt 9 A   &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F  &kp G      &kp H     &mt LEFT_ALT J  &mt LEFT_GUI K  &mt LCTRL L  &lt 10 SEMI  &lt 18 SQT
 &kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V           &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &kp SPACE       &kp RET    &kp LALT  &kp BSPC        &kp MINUS
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE       &kp RET    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
