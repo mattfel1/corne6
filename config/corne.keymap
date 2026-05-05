@@ -269,49 +269,49 @@
         m_clmk {
             display-name = "m_clmk";
             bindings = <
-&kp TAB       &lt 5 Q   &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 15 SEMICOLON  &kp BSLH
-&lt 17 GRAVE  &lt 6 A   &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_GUI T        &kp D      &kp H     &mt LEFT_GUI N  &mt LEFT_ALT E  &mt LCTRL I  &lt 7 O           &lt 17 SQT
-&kp LSHFT     &lt 11 Z  &lt 13 X     &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 SLASH      &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
+&kp TAB       &kp Q    &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 11 SEMICOLON  &kp BSLH
+&lt 13 GRAVE  &lt 5 A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_GUI T        &kp D      &kp H     &mt LEFT_GUI N  &mt LEFT_ALT E  &mt LCTRL I  &kp O             &lt 13 SQT
+&kp LSHFT     &lt 7 Z  &lt 9 X      &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 10 SLASH      &caps_lock
+                                    &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
         m_qwrty {
             display-name = "m_qwrty";
             bindings = <
-&kp TAB       &lt 5 Q   &kp W        &kp E           &kp R                 &kp T        &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
-&lt 17 GRAVE  &lt 6 A   &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F        &kp G        &kp H     &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LCTRL L  &lt 7 SEMI   &lt 17 SQT
-&kp LSHFT     &lt 11 Z  &lt 13 X     &kp C           &kp V                 &kp B        &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp ENTER    &kp LALT  &kp BSPC        &kp MINUS
+&kp TAB       &kp Q    &kp W        &kp E           &kp R                 &kp T        &kp Y     &kp U           &kp I           &kp O        &lt 11 P       &kp BSLH
+&lt 13 GRAVE  &lt 5 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F        &kp G        &kp H     &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LCTRL L  &kp SEMICOLON  &lt 13 SQT
+&kp LSHFT     &lt 7 Z  &lt 9 X      &kp C           &kp V                 &kp B        &kp K     &kp M           &kp COMMA       &kp DOT      &lt 10 FSLH    &caps_lock
+                                    &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp ENTER    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
         w_clmk {
             display-name = "w_clmk";
             bindings = <
-&kp TAB       &lt 8 Q   &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 15 SEMI  &kp BSLH
-&lt 18 GRAVE  &lt 9 A   &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T        &kp D      &kp H     &mt LEFT_ALT N  &mt LEFT_WIN E  &mt RCTRL I  &lt 10 O     &lt 18 SQT
-&kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LGUI  &kp BSPC        &kp MINUS
+&kp TAB       &kp Q    &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 11 SEMI  &kp BSLH
+&lt 14 GRAVE  &lt 6 A  &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T        &kp D      &kp H     &mt LEFT_ALT N  &mt LEFT_WIN E  &mt RCTRL I  &kp O        &lt 14 SQT
+&kp LSHFT     &lt 8 Z  &lt 9 X      &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 10 FSLH  &caps_lock
+                                    &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LGUI  &kp BSPC        &kp MINUS
             >;
         };
 
         w_qwrty {
             display-name = "w_qwrty";
             bindings = <
-&kp TAB       &lt 8 Q   &kp W        &kp E           &kp R                 &kp T      &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
-&lt 18 GRAVE  &lt 9 A   &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F        &kp G      &kp H     &mt LEFT_ALT J  &mt LEFT_GUI K  &mt LCTRL L  &lt 10 SEMI  &lt 18 SQT
-&kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
+&kp TAB       &kp Q    &kp W        &kp E           &kp R                 &kp T      &kp Y     &kp U           &kp I           &kp O        &lt 11 P     &kp BSLH
+&lt 14 GRAVE  &lt 6 A  &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F        &kp G      &kp H     &mt LEFT_ALT J  &mt LEFT_GUI K  &mt LCTRL L  &kp SEMI     &lt 14 SQT
+&kp LSHFT     &lt 8 Z  &lt 9 X      &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 10 FSLH  &caps_lock
+                                    &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
         w_game {
             display-name = "w_game";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E      &kp R      &lt 8 T    &kp Y     &kp U     &kp I      &kp O    &lt 15 P     &kp BSLH
-&kp TILDE  &kp A  &kp S  &kp D      &kp F      &kp G      &kp H     &kp J     &kp K      &kp L    &lt 10 SEMI  &lt 17 SQT
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 14 FSLH  &caps_lock
+&kp TAB    &kp Q  &kp W  &kp E      &kp R      &lt 6 T    &kp Y     &kp U     &kp I      &kp O    &lt 11 P     &kp BSLH
+&kp TILDE  &kp A  &kp S  &kp D      &kp F      &kp G      &kp H     &kp J     &kp K      &kp L    &lt 0 SEMI   &lt 13 SQT
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 10 FSLH  &caps_lock
                          &kp LCTRL  &kp SPACE  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
             >;
         };
@@ -319,60 +319,20 @@
         m_arrow {
             display-name = "m_arrow";
             bindings = <
-&trans  &trans  &kp LCTRL  &kp LALT  &kp LGUI   &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &sl 16
-&trans  &trans  &trans     &trans    &trans     &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans     &trans    &trans     &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
-                           &trans    &kp LSHFT  &trans    &kp END        &trans    &trans
-            >;
-        };
-
-        m_nav {
-            display-name = "m_nav";
-            bindings = <
-&trans  &trans  &trans     &trans    &trans     &trans    &kp PG_UP      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LCTRL  &kp LALT  &kp LGUI   &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans    &trans     &trans    &kp HOME       &trans  &trans  &trans  &trans  &trans
-                           &trans    &kp LSHFT  &trans    &kp END        &trans  &trans
-            >;
-        };
-
-        m_nav_rhs {
-            display-name = "m_nav_rhs";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RGUI        &kp RALT  &kp RCTRL  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans    &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &kp LEFT_SHIFT  &trans
+&trans  &trans  &trans     &trans        &trans        &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &sl 12
+&trans  &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans        &trans        &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
+                           &trans        &kp LSHFT     &trans    &kp END        &trans    &trans
             >;
         };
 
         w_arrow {
             display-name = "w_arrow";
             bindings = <
-&trans  &trans  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &trans     &trans        &trans        &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans        &trans        &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans     &trans        &trans        &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
                            &trans        &kp LSHFT     &trans    &kp END        &trans    &trans
-            >;
-        };
-
-        w_nav {
-            display-name = "w_nav";
-            bindings = <
-&trans  &trans  &trans     &trans        &trans        &trans    &kp PG_UP      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans        &trans        &trans    &kp HOME       &trans  &trans  &trans  &trans  &trans
-                           &trans        &kp LSHFT     &trans    &kp END        &trans  &trans
-            >;
-        };
-
-        w_nav_rhs {
-            display-name = "w_nav_rhs";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ALT    &kp LEFT_WIN  &kp RCTRL  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &kp LEFT_SHIFT  &trans
             >;
         };
 
