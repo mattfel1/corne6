@@ -263,9 +263,9 @@
             display-name = "m_clmk";
             bindings = <
 &kp TAB       &lt 5 Q   &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 15 SEMICOLON  &kp BSLH
-&lt 17 GRAVE  &lt 6 A   &mt R LCTRL  &mt S LEFT_ALT  &mt T LEFT_GUI        &kp D      &kp H     &mt N LEFT_GUI  &mt E LEFT_ALT  &mt I LCTRL  &lt 7 O           &lt 17 SQT
+&lt 17 GRAVE  &lt 6 A   &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_GUI T        &kp D      &kp H     &mt LEFT_GUI N  &mt LEFT_ALT E  &mt LCTRL I  &lt 7 O           &lt 17 SQT
 &kp LSHFT     &lt 11 Z  &lt 13 X     &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 SLASH      &caps_lock
-                                     &kp LCTRL       &mt SPACE LEFT_SHIFT  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
