@@ -17,6 +17,13 @@
     flavor = "tap-preferred";
 };
 
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <180>;
+    quick-tap-ms = <165>;
+    require-prior-idle-ms = <135>;
+};
+
 / {
     macros {
         to_mac_colemak: to_mac_colemak {
@@ -272,30 +279,30 @@
         m_qwrty {
             display-name = "m_qwrty";
             bindings = <
-&kp TAB       &lt 5 Q   &kp W        &kp E           &kp R           &kp T        &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
-&lt 17 GRAVE  &lt 6 A   &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F  &kp G        &kp H     &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LCTRL L  &lt 7 SEMI   &lt 17 SQT
-&kp LSHFT     &lt 11 Z  &lt 13 X     &kp C           &kp V           &kp B        &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE       &kp ENTER    &kp LALT  &kp BSPC        &kp MINUS
+&kp TAB       &lt 5 Q   &kp W        &kp E           &kp R                 &kp T        &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
+&lt 17 GRAVE  &lt 6 A   &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F        &kp G        &kp H     &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LCTRL L  &lt 7 SEMI   &lt 17 SQT
+&kp LSHFT     &lt 11 Z  &lt 13 X     &kp C           &kp V                 &kp B        &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp ENTER    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
         w_clmk {
             display-name = "w_clmk";
             bindings = <
-&kp TAB       &lt 8 Q   &kp W        &kp F           &kp P           &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 15 SEMI  &kp BSLH
-&lt 18 GRAVE  &lt 9 A   &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T  &kp D      &kp H     &mt LEFT_ALT N  &mt LEFT_WIN E  &mt RCTRL I  &lt 10 O     &lt 18 SQT
-&kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V           &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE       &kp RET    &kp LGUI  &kp BSPC        &kp MINUS
+&kp TAB       &lt 8 Q   &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L           &kp U           &kp Y        &lt 15 SEMI  &kp BSLH
+&lt 18 GRAVE  &lt 9 A   &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T        &kp D      &kp H     &mt LEFT_ALT N  &mt LEFT_WIN E  &mt RCTRL I  &lt 10 O     &lt 18 SQT
+&kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LGUI  &kp BSPC        &kp MINUS
             >;
         };
 
         w_qwrty {
             display-name = "w_qwrty";
             bindings = <
-&kp TAB       &lt 8 Q   &kp W        &kp E           &kp R           &kp T      &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
-&lt 18 GRAVE  &lt 9 A   &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F  &kp G      &kp H     &mt LEFT_ALT J  &mt LEFT_GUI K  &mt LCTRL L  &lt 10 SEMI  &lt 18 SQT
-&kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V           &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
-                                     &kp LCTRL       &mt LEFT_SHIFT SPACE       &kp RET    &kp LALT  &kp BSPC        &kp MINUS
+&kp TAB       &lt 8 Q   &kp W        &kp E           &kp R                 &kp T      &kp Y     &kp U           &kp I           &kp O        &lt 15 P     &kp BSLH
+&lt 18 GRAVE  &lt 9 A   &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F        &kp G      &kp H     &mt LEFT_ALT J  &mt LEFT_GUI K  &mt LCTRL L  &lt 10 SEMI  &lt 18 SQT
+&kp LSHFT     &lt 12 Z  &lt 13 X     &kp C           &kp V                 &kp B      &kp K     &kp M           &kp COMMA       &kp DOT      &lt 14 FSLH  &caps_lock
+                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &kp BSPC        &kp MINUS
             >;
         };
 
