@@ -11,14 +11,14 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <148>;
+    tapping-term-ms = <150>;
     quick-tap-ms = <150>;
     flavor = "tap-preferred";
 };
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <148>;
+    tapping-term-ms = <150>;
     quick-tap-ms = <150>;
 };
 
