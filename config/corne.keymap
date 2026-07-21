@@ -267,9 +267,9 @@
         m_clmk {
             display-name = "m_clmk";
             bindings = <
-&kp TAB       &kp Q    &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L                      &kp U           &kp Y        &lt 11 SEMICOLON  &kp BSLH
-&lt 13 GRAVE  &lt 5 A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_GUI T        &kp D      &kp H     &mt LEFT_GUI N             &mt LEFT_ALT E  &mt LCTRL I  &kp O             &lt 13 SQT
-&kp LSHFT     &lt 7 Z  &lt 9 X      &kp C           &kp V                 &kp B      &kp K     &kp M                      &kp COMMA       &kp DOT      &lt 10 SLASH      &caps_lock
+&kp TAB       &kp Q    &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L                      &kp U           &kp Y        &lt 10 SEMICOLON  &kp BSLH
+&lt 12 GRAVE  &lt 5 A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_GUI T        &kp D      &kp H     &mt LEFT_GUI N             &mt LEFT_ALT E  &mt LCTRL I  &kp O             &lt 12 SQT
+&kp LSHFT     &lt 6 Z  &lt 8 X      &kp C           &kp V                 &kp B      &kp K     &kp M                      &kp COMMA       &kp DOT      &lt 9 SLASH       &caps_lock
                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &mt RIGHT_SHIFT BACKSPACE  &kp MINUS
             >;
         };
@@ -277,9 +277,9 @@
         m_qwrty {
             display-name = "m_qwrty";
             bindings = <
-&kp TAB       &kp Q    &kp W        &kp E           &kp R                 &kp T        &kp Y     &kp U                     &kp I           &kp O        &lt 11 P       &kp BSLH
-&lt 13 GRAVE  &lt 5 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F        &kp G        &kp H     &mt LEFT_GUI J            &mt LEFT_ALT K  &mt LCTRL L  &kp SEMICOLON  &lt 13 SQT
-&kp LSHFT     &lt 7 Z  &lt 9 X      &kp C           &kp V                 &kp B        &kp K     &kp M                     &kp COMMA       &kp DOT      &lt 10 FSLH    &caps_lock
+&kp TAB       &kp Q    &kp W        &kp E           &kp R                 &kp T        &kp Y     &kp U                     &kp I           &kp O        &lt 10 P       &kp BSLH
+&lt 12 GRAVE  &lt 5 A  &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_WIN F        &kp G        &kp H     &mt LEFT_GUI J            &mt LEFT_ALT K  &mt LCTRL L  &kp SEMICOLON  &lt 12 SQT
+&kp LSHFT     &lt 6 Z  &lt 8 X      &kp C           &kp V                 &kp B        &kp K     &kp M                     &kp COMMA       &kp DOT      &lt 9 FSLH     &caps_lock
                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp ENTER    &kp LALT  &mt LEFT_SHIFT BACKSPACE  &kp MINUS
             >;
         };
@@ -287,9 +287,9 @@
         w_clmk {
             display-name = "w_clmk";
             bindings = <
-&kp TAB       &kp Q    &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L                     &kp U           &kp Y        &lt 11 SEMI  &kp BSLH
-&lt 14 GRAVE  &lt 6 A  &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T        &kp D      &kp H     &mt LEFT_ALT N            &mt LEFT_WIN E  &mt RCTRL I  &kp O        &lt 14 SQT
-&kp LSHFT     &lt 8 Z  &lt 9 X      &kp C           &kp V                 &kp B      &kp K     &kp M                     &kp COMMA       &kp DOT      &lt 10 FSLH  &caps_lock
+&kp TAB       &kp Q    &kp W        &kp F           &kp P                 &kp G      &kp J     &kp L                     &kp U           &kp Y        &lt 10 SEMI  &kp BSLH
+&lt 12 GRAVE  &lt 5 A  &mt LCTRL R  &mt LEFT_WIN S  &mt LEFT_ALT T        &kp D      &kp H     &mt LEFT_ALT N            &mt LEFT_WIN E  &mt RCTRL I  &kp O        &lt 12 SQT
+&kp LSHFT     &lt 7 Z  &lt 8 X      &kp C           &kp V                 &kp B      &kp K     &kp M                     &kp COMMA       &kp DOT      &lt 9 FSLH   &caps_lock
                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LGUI  &mt LEFT_SHIFT BACKSPACE  &kp MINUS
             >;
         };
@@ -297,9 +297,9 @@
         w_qwrty {
             display-name = "w_qwrty";
             bindings = <
-&kp TAB       &kp Q    &kp W        &kp E           &kp R                 &kp T      &kp Y     &kp U                     &kp I           &kp O        &lt 11 P     &kp BSLH
-&lt 14 GRAVE  &lt 6 A  &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F        &kp G      &kp H     &mt LEFT_ALT J            &mt LEFT_GUI K  &mt LCTRL L  &kp SEMI     &lt 14 SQT
-&kp LSHFT     &lt 8 Z  &lt 9 X      &kp C           &kp V                 &kp B      &kp K     &kp M                     &kp COMMA       &kp DOT      &lt 10 FSLH  &caps_lock
+&kp TAB       &kp Q    &kp W        &kp E           &kp R                 &kp T      &kp Y     &kp U                     &kp I           &kp O        &lt 10 P    &kp BSLH
+&lt 12 GRAVE  &lt 5 A  &mt LCTRL S  &mt LEFT_GUI D  &mt LEFT_ALT F        &kp G      &kp H     &mt LEFT_ALT J            &mt LEFT_GUI K  &mt LCTRL L  &kp SEMI    &lt 12 SQT
+&kp LSHFT     &lt 7 Z  &lt 8 X      &kp C           &kp V                 &kp B      &kp K     &kp M                     &kp COMMA       &kp DOT      &lt 9 FSLH  &caps_lock
                                     &kp LCTRL       &mt LEFT_SHIFT SPACE  &kp RET    &kp LALT  &mt LEFT_SHIFT BACKSPACE  &kp MINUS
             >;
         };
@@ -307,45 +307,35 @@
         w_game {
             display-name = "w_game";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E      &kp R      &lt 6 T    &kp Y     &kp U     &kp I      &kp O    &lt 11 P     &kp BSLH
-&kp TILDE  &kp A  &kp S  &kp D      &kp F      &kp G      &kp H     &kp J     &kp K      &kp L    &lt 0 SEMI   &lt 13 SQT
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 10 FSLH  &caps_lock
+&kp TAB    &kp Q  &kp W  &kp E      &kp R      &lt 5 T    &kp Y     &kp U     &kp I      &kp O    &lt 10 P    &kp BSLH
+&kp TILDE  &kp A  &kp S  &kp D      &kp F      &kp G      &kp H     &kp J     &kp K      &kp L    &lt 0 SEMI  &lt 12 SQT
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &kp K     &kp M     &kp COMMA  &kp DOT  &lt 9 FSLH  &caps_lock
                          &kp LCTRL  &kp SPACE  &kp RET    &kp LALT  &kp BSPC  &kp MINUS
             >;
         };
 
-        m_arrow {
-            display-name = "m_arrow";
+        arrow {
+            display-name = "arrow";
             bindings = <
-&trans  &trans  &trans     &trans        &trans        &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &sl 12
-&trans  &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans     &trans        &trans        &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
-                           &trans        &kp LSHFT     &trans    &kp END        &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &sl 11
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
+                        &trans  &trans  &trans    &kp END        &trans    &trans
             >;
         };
 
-        w_arrow {
-            display-name = "w_arrow";
+        num_hifunc_m {
+            display-name = "num_hifunc_m";
             bindings = <
-&trans  &trans  &trans     &trans        &trans        &trans    &kp PG_UP      &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans     &trans        &trans        &trans    &kp HOME       &trans    &trans    &trans     &trans  &trans
-                           &trans        &kp LSHFT     &trans    &kp END        &trans    &trans
+&trans  &trans  &kp F16    &kp F17       &kp F18        &kp F19    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &kp F20    &kp F21       &kp F22        &kp F23    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_META  &kp F24    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                           &trans        &trans         &trans     &trans  &trans  &kp N0
             >;
         };
 
-        m_numpad_hi_func {
-            display-name = "m_num_hifunc";
-            bindings = <
-&trans  &trans  &kp F16    &kp F17       &kp F18         &kp F19    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &kp F20    &kp F21       &kp F22         &kp F23    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_META   &kp F24    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                           &trans        &kp LEFT_SHIFT  &trans     &trans  &trans  &kp N0
-            >;
-        };
-
-        w_num_hifunc {
-            display-name = "w_num_hifunc";
+        num_hifunc_w {
+            display-name = "num_hifunc_w";
             bindings = <
 &trans  &trans  &kp F16    &kp F17       &kp F18       &kp F19    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
 &trans  &trans  &kp F20    &kp F21       &kp F22       &kp F23    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
@@ -394,23 +384,13 @@
             >;
         };
 
-        m_special_chars {
-            display-name = "m_special_char";
+        special_chars {
+            display-name = "special_char";
             bindings = <
-&kp ESCAPE  &kp EXCL   &kp AT        &kp HASH      &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS        &kp STAR      &kp LPAR      &kp RPAR   &kp DELETE
-&trans      &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &trans          &kp LBKT     &kp RBKT   &trans          &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &trans
-&trans      &trans     &trans        &trans        &trans          &trans       &trans     &trans          &trans        &trans        &trans     &trans
-                                     &trans        &kp LEFT_SHIFT  &trans       &trans     &kp LEFT_SHIFT  &kp EQUAL
-            >;
-        };
-
-        w_special_char {
-            display-name = "w_special_char";
-            bindings = <
-&kp ESCAPE  &kp EXCL   &kp AT        &kp HASH      &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS        &kp STAR      &kp LPAR      &kp RPAR   &kp DELETE
-&trans      &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans          &kp LBKT     &kp RBKT   &trans          &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL  &trans
-&trans      &trans     &trans        &trans        &trans          &trans       &trans     &trans          &trans        &trans        &trans     &trans
-                                     &trans        &kp LEFT_SHIFT  &trans       &trans     &kp LEFT_SHIFT  &kp EQUAL
+&kp ESCAPE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp DELETE
+&trans      &trans    &trans  &trans    &trans    &kp LBKT     &kp RBKT   &trans    &trans     &trans    &trans    &trans
+&trans      &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans     &trans    &trans    &trans
+                              &trans    &trans    &trans       &trans     &trans    &kp EQUAL
             >;
         };
     };
